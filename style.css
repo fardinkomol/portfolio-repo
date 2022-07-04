@@ -7,6 +7,10 @@ h1 {
      font-size: 50px;
 }
 
+h2 {
+     font-size: 40px;
+}
+
 .orange-color {
      color: orange;
 }
@@ -18,7 +22,7 @@ h1 {
 
 .half-width {
      width: 50%;
-     padding-left: 5%;
+
 }
 
 .half-width img {
@@ -32,6 +36,7 @@ h1 {
      background-color: orange;
      padding: 10px 40px;
      border-radius: 5px;
+
 }
 
 .top-banner {
@@ -47,4 +52,33 @@ h1 {
 
 .experience-area {
      padding-left: 5%;
+     background-image: url(images/exp-bg.png);
+     background-repeat: no-repeat;
+}
+
+.experience-item {
+
+     margin-left: 5%;
+     margin-right: 5%;
+     margin-bottom: 15%;
+     padding-left: 10px;
+     box-shadow: 10px 10px 40px gray;
+     border-radius: 10px;
+
+}
+
+.padding-1 {
+     margin-left: 5%;
+}
+
+#full-stack {
+     border-left: 7px solid tomato;
+}
+
+#baby-web {
+     border-left: 7px solid blue;
+}
+
+footer {
+     text-align: center;
 }
